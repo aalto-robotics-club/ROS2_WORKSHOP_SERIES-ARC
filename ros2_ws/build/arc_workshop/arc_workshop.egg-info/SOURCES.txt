@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/arc_workshop/arc_workshop.egg-info/PKG-INFO
+../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt
+../../build/arc_workshop/arc_workshop.egg-info/dependency_links.txt
+../../build/arc_workshop/arc_workshop.egg-info/entry_points.txt
+../../build/arc_workshop/arc_workshop.egg-info/requires.txt
+../../build/arc_workshop/arc_workshop.egg-info/top_level.txt
+../../build/arc_workshop/arc_workshop.egg-info/zip-safe
+arc_workshop/__init__.py
+arc_workshop/cmd_vel_reader.py
+arc_workshop/scan_direction_reader.py
+arc_workshop/stop_on_obstacle.py
+resource/arc_workshop

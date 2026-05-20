@@ -1,0 +1,47 @@
+[0.609s] Invoking command in '/home/ubuntu/ros2_ws/src/arc_workshop': PYTHONPATH=/home/ubuntu/ros2_ws/build/arc_workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arc_workshop build --build-base /home/ubuntu/ros2_ws/build/arc_workshop/build install --record /home/ubuntu/ros2_ws/build/arc_workshop/install.log --single-version-externally-managed install_data
+[0.829s] running egg_info
+[0.830s] creating ../../build/arc_workshop/arc_workshop.egg-info
+[0.830s] writing ../../build/arc_workshop/arc_workshop.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/arc_workshop/arc_workshop.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/arc_workshop/arc_workshop.egg-info/entry_points.txt
+[0.832s] writing requirements to ../../build/arc_workshop/arc_workshop.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/arc_workshop/arc_workshop.egg-info/top_level.txt
+[0.833s] writing manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+[0.835s] reading manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+[0.836s] writing manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+[0.836s] running build
+[0.836s] running build_py
+[0.837s] creating /home/ubuntu/ros2_ws/build/arc_workshop/build
+[0.837s] creating /home/ubuntu/ros2_ws/build/arc_workshop/build/lib
+[0.837s] creating /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+[0.838s] copying arc_workshop/__init__.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+[0.838s] copying arc_workshop/scan_direction_reader.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+[0.839s] copying arc_workshop/stop_on_obstacle.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+[0.839s] copying arc_workshop/cmd_vel_reader.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+[0.841s] running install
+[0.841s] running install_lib
+[0.841s] creating /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+[0.841s] copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/__init__.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+[0.842s] copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/scan_direction_reader.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+[0.843s] copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/stop_on_obstacle.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+[0.844s] copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/cmd_vel_reader.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+[0.846s] byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/__init__.py to __init__.cpython-310.pyc
+[0.847s] byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/scan_direction_reader.py to scan_direction_reader.cpython-310.pyc
+[0.849s] Sorry: IndentationError: expected an indented block after function definition on line 21 (scan_direction_reader.py, line 34)
+[0.849s] byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/stop_on_obstacle.py to stop_on_obstacle.cpython-310.pyc
+[0.851s] byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/cmd_vel_reader.py to cmd_vel_reader.cpython-310.pyc
+[0.852s] Sorry: IndentationError: expected an indented block after function definition on line 22 (cmd_vel_reader.py, line 31)
+[0.852s] running install_data
+[0.852s] creating /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index
+[0.853s] creating /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index/resource_index
+[0.853s] creating /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index/resource_index/packages
+[0.853s] copying resource/arc_workshop -> /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index/resource_index/packages
+[0.853s] copying package.xml -> /home/ubuntu/ros2_ws/install/arc_workshop/share/arc_workshop
+[0.855s] running install_egg_info
+[0.855s] Copying ../../build/arc_workshop/arc_workshop.egg-info to /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop-0.0.1-py3.10.egg-info
+[0.861s] running install_scripts
+[0.881s] Installing cmd_vel_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+[0.882s] Installing scan_direction_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+[0.882s] Installing stop_on_obstacle script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+[0.883s] writing list of installed files to '/home/ubuntu/ros2_ws/build/arc_workshop/install.log'
+[0.899s] Invoked command in '/home/ubuntu/ros2_ws/src/arc_workshop' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/arc_workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arc_workshop build --build-base /home/ubuntu/ros2_ws/build/arc_workshop/build install --record /home/ubuntu/ros2_ws/build/arc_workshop/install.log --single-version-externally-managed install_data

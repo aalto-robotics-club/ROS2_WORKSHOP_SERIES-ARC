@@ -1,0 +1,5 @@
+[console_scripts]
+cmd_vel_reader = arc_workshop.cmd_vel_reader:main
+scan_direction_reader = arc_workshop.scan_direction_reader:main
+stop_on_obstacle = arc_workshop.stop_on_obstacle:main
+

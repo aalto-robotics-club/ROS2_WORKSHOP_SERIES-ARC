@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/arc_workshop/arc_workshop.egg-info
+writing ../../build/arc_workshop/arc_workshop.egg-info/PKG-INFO
+writing dependency_links to ../../build/arc_workshop/arc_workshop.egg-info/dependency_links.txt
+writing entry points to ../../build/arc_workshop/arc_workshop.egg-info/entry_points.txt
+writing requirements to ../../build/arc_workshop/arc_workshop.egg-info/requires.txt
+writing top-level names to ../../build/arc_workshop/arc_workshop.egg-info/top_level.txt
+writing manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+reading manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+writing manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/arc_workshop/build
+creating /home/ubuntu/ros2_ws/build/arc_workshop/build/lib
+creating /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+copying arc_workshop/__init__.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+copying arc_workshop/scan_direction_reader.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+copying arc_workshop/stop_on_obstacle.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+copying arc_workshop/cmd_vel_reader.py -> /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/__init__.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/scan_direction_reader.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/stop_on_obstacle.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+copying /home/ubuntu/ros2_ws/build/arc_workshop/build/lib/arc_workshop/cmd_vel_reader.py -> /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop
+byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/scan_direction_reader.py to scan_direction_reader.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after function definition on line 21 (scan_direction_reader.py, line 34)
+byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/stop_on_obstacle.py to stop_on_obstacle.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/cmd_vel_reader.py to cmd_vel_reader.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after function definition on line 22 (cmd_vel_reader.py, line 31)
+running install_data
+creating /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index
+creating /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index/resource_index/packages
+copying resource/arc_workshop -> /home/ubuntu/ros2_ws/install/arc_workshop/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/install/arc_workshop/share/arc_workshop
+running install_egg_info
+Copying ../../build/arc_workshop/arc_workshop.egg-info to /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop-0.0.1-py3.10.egg-info
+running install_scripts
+Installing cmd_vel_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+Installing scan_direction_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+Installing stop_on_obstacle script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+writing list of installed files to '/home/ubuntu/ros2_ws/build/arc_workshop/install.log'

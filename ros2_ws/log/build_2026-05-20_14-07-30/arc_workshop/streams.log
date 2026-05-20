@@ -1,0 +1,27 @@
+[0.582s] Invoking command in '/home/ubuntu/ros2_ws/src/arc_workshop': PYTHONPATH=/home/ubuntu/ros2_ws/build/arc_workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arc_workshop build --build-base /home/ubuntu/ros2_ws/build/arc_workshop/build install --record /home/ubuntu/ros2_ws/build/arc_workshop/install.log --single-version-externally-managed install_data
+[0.817s] running egg_info
+[0.817s] writing ../../build/arc_workshop/arc_workshop.egg-info/PKG-INFO
+[0.818s] writing dependency_links to ../../build/arc_workshop/arc_workshop.egg-info/dependency_links.txt
+[0.818s] writing entry points to ../../build/arc_workshop/arc_workshop.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/arc_workshop/arc_workshop.egg-info/requires.txt
+[0.819s] writing top-level names to ../../build/arc_workshop/arc_workshop.egg-info/top_level.txt
+[0.821s] reading manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.823s] running build_py
+[0.824s] running install
+[0.824s] running install_lib
+[0.825s] byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/scan_direction_reader.py to scan_direction_reader.cpython-310.pyc
+[0.827s] Sorry: IndentationError: expected an indented block after function definition on line 21 (scan_direction_reader.py, line 34)
+[0.827s] byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/cmd_vel_reader.py to cmd_vel_reader.cpython-310.pyc
+[0.828s] Sorry: IndentationError: expected an indented block after function definition on line 22 (cmd_vel_reader.py, line 31)
+[0.829s] running install_data
+[0.829s] running install_egg_info
+[0.829s] removing '/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop-0.0.1-py3.10.egg-info' (and everything under it)
+[0.830s] Copying ../../build/arc_workshop/arc_workshop.egg-info to /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop-0.0.1-py3.10.egg-info
+[0.837s] running install_scripts
+[0.856s] Installing cmd_vel_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+[0.857s] Installing scan_direction_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+[0.857s] Installing stop_on_obstacle script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop
+[0.858s] writing list of installed files to '/home/ubuntu/ros2_ws/build/arc_workshop/install.log'
+[0.874s] Invoked command in '/home/ubuntu/ros2_ws/src/arc_workshop' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/arc_workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arc_workshop build --build-base /home/ubuntu/ros2_ws/build/arc_workshop/build install --record /home/ubuntu/ros2_ws/build/arc_workshop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,40 @@
+[0.000000] (-) TimerEvent: {}
+[0.001848] (arc_workshop) JobQueued: {'identifier': 'arc_workshop', 'dependencies': OrderedDict()}
+[0.002130] (arc_workshop) JobStarted: {'identifier': 'arc_workshop'}
+[0.104124] (-) TimerEvent: {}
+[0.207568] (-) TimerEvent: {}
+[0.313265] (-) TimerEvent: {}
+[0.416075] (-) TimerEvent: {}
+[0.521052] (-) TimerEvent: {}
+[0.579245] (arc_workshop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arc_workshop', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/arc_workshop/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/arc_workshop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/arc_workshop', 'env': {'VNCDESKTOP': '1b0f931dcb17:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '1b0f931dcb17', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-F3y7mWGSnV,guid=343655d8ce618ef364e5ab8b6a0dbffd', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '600', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-GWMOP3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/1b0f931dcb17:@/tmp/.ICE-unix/74,unix/1b0f931dcb17:/tmp/.ICE-unix/74', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-GWMOP3/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:18f1ff4e-207f-4567-bdae-f4a787b46706', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ros2_ws/build/arc_workshop', 'TURTLEBOT3_MODEL': 'burger', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/arc_workshop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.622082] (-) TimerEvent: {}
+[0.723085] (-) TimerEvent: {}
+[0.818298] (arc_workshop) StdoutLine: {'line': b'running egg_info\n'}
+[0.819207] (arc_workshop) StdoutLine: {'line': b'writing ../../build/arc_workshop/arc_workshop.egg-info/PKG-INFO\n'}
+[0.819724] (arc_workshop) StdoutLine: {'line': b'writing dependency_links to ../../build/arc_workshop/arc_workshop.egg-info/dependency_links.txt\n'}
+[0.820379] (arc_workshop) StdoutLine: {'line': b'writing entry points to ../../build/arc_workshop/arc_workshop.egg-info/entry_points.txt\n'}
+[0.820865] (arc_workshop) StdoutLine: {'line': b'writing requirements to ../../build/arc_workshop/arc_workshop.egg-info/requires.txt\n'}
+[0.821225] (arc_workshop) StdoutLine: {'line': b'writing top-level names to ../../build/arc_workshop/arc_workshop.egg-info/top_level.txt\n'}
+[0.823010] (arc_workshop) StdoutLine: {'line': b"reading manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'\n"}
+[0.823261] (-) TimerEvent: {}
+[0.824285] (arc_workshop) StdoutLine: {'line': b"writing manifest file '../../build/arc_workshop/arc_workshop.egg-info/SOURCES.txt'\n"}
+[0.824533] (arc_workshop) StdoutLine: {'line': b'running build\n'}
+[0.824778] (arc_workshop) StdoutLine: {'line': b'running build_py\n'}
+[0.825837] (arc_workshop) StdoutLine: {'line': b'running install\n'}
+[0.826044] (arc_workshop) StdoutLine: {'line': b'running install_lib\n'}
+[0.827186] (arc_workshop) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/scan_direction_reader.py to scan_direction_reader.cpython-310.pyc\n'}
+[0.828846] (arc_workshop) StderrLine: {'line': b'Sorry: IndentationError: expected an indented block after function definition on line 21 (scan_direction_reader.py, line 34)\n'}
+[0.829078] (arc_workshop) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop/cmd_vel_reader.py to cmd_vel_reader.cpython-310.pyc\n'}
+[0.829407] (arc_workshop) StderrLine: {'line': b'Sorry: IndentationError: expected an indented block after function definition on line 22 (cmd_vel_reader.py, line 31)\n'}
+[0.830640] (arc_workshop) StdoutLine: {'line': b'running install_data\n'}
+[0.830945] (arc_workshop) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.831377] (arc_workshop) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[0.832217] (arc_workshop) StdoutLine: {'line': b'Copying ../../build/arc_workshop/arc_workshop.egg-info to /home/ubuntu/ros2_ws/install/arc_workshop/lib/python3.10/site-packages/arc_workshop-0.0.1-py3.10.egg-info\n'}
+[0.837651] (arc_workshop) StdoutLine: {'line': b'running install_scripts\n'}
+[0.858228] (arc_workshop) StdoutLine: {'line': b'Installing cmd_vel_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop\n'}
+[0.858833] (arc_workshop) StdoutLine: {'line': b'Installing scan_direction_reader script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop\n'}
+[0.859268] (arc_workshop) StdoutLine: {'line': b'Installing stop_on_obstacle script to /home/ubuntu/ros2_ws/install/arc_workshop/lib/arc_workshop\n'}
+[0.859923] (arc_workshop) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/arc_workshop/install.log'\n"}
+[0.875635] (arc_workshop) CommandEnded: {'returncode': 0}
+[0.888585] (arc_workshop) JobEnded: {'identifier': 'arc_workshop', 'rc': 0}
+[0.889799] (-) EventReactorShutdown: {}
