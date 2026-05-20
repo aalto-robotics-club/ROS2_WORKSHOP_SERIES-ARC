@@ -60,6 +60,35 @@ Use the keyboard instructions shown in the terminal to drive the robot.
 
 ---
 
+## Python Files
+
+The workshop includes standalone Python files that can be run directly with `python3` (not requiring ROS 2). These files are located in:
+
+```
+ros2_ws/src/arc_workshop/arc_workshop/
+```
+
+Available Python files:
+
+- **cmd_vel_reader.py** - Reads command velocity messages
+- **scan_direction_reader.py** - Reads and processes scan direction data
+- **stop_on_obstacle.py** - Implements obstacle detection and stopping logic
+
+To run any of these files from the project root:
+
+```bash
+python3 ros2_ws/src/arc_workshop/arc_workshop/cmd_vel_reader.py
+```
+
+Or navigate to the directory first:
+
+```bash
+cd ros2_ws/src/arc_workshop/arc_workshop/
+python3 cmd_vel_reader.py
+```
+
+---
+
 ## Notes
 
 - Keep the Gazebo launch terminal running while driving the robot.
